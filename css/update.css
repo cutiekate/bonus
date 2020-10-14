@@ -1,0 +1,38 @@
+.form__text {
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    line-height: 0px;
+    letter-spacing: 0.06em;
+    color: #03C473;
+    margin-top: 5px;
+}
+
+.question__cart {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 260px;
+    background: #FFFFFF;
+    box-shadow: -10px 10px 40px rgba(67, 67, 67, 0.1);
+    border-radius: 5px;
+    overflow: scroll;
+}
+
+.question__cart p {
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 39px;
+    margin-bottom: 0;
+    padding-left: 10px;
+    color: #747A88;
+}
+
+.question__cart p:hover {
+    background: #03C473;
+
+    color: white;
+}
+
+
+
