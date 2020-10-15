@@ -90,18 +90,7 @@ $(document).ready(function () {
             },
             utilsScript: "../js/utils.js"
         }),
-        iti2 = window.intlTelInput(input2, {
-            initialCountry: "auto",
-            defaultCountry: 'auto',
-            nationalMode: false,
-            geoIpLookup: function(success, failure) {
-                $.get("https://ipinfo.io?token=a1676089e9b822", function() {}, "jsonp").always(function(resp) {
-                    var countryCode = (resp && resp.country) ? resp.country : "";
-                    success(countryCode);
-                });
-            },
-            utilsScript: "../js/utils.js"
-        }),
+
         iti3 = window.intlTelInput(input3, {
             initialCountry: "auto",
             defaultCountry: 'auto',
